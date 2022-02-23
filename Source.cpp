@@ -14,6 +14,12 @@ int main() {
         result++;
         Dollor -= 20;
     };
+    while (Dollor >= 10)
+    {
+        result++;
+        Dollor -= 10;
+    };
+    
     while (Dollor >= 5)
     {
         result++;
